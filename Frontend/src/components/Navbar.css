@@ -1,0 +1,26 @@
+*{
+    margin:0;
+}
+
+.navbar{
+    display: flex;
+    background-color: chocolate;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.list{
+    list-style: none;
+    margin:10px;
+}
+.link{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.list:hover{
+    background-color: gray;
+    color:white;
+    cursor:pointer;
+
+}
