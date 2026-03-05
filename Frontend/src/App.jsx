@@ -5,6 +5,7 @@ import Effect from "./hooks/Effect";
 import EffectWithApi from "./hooks/EffectWithApi";
 import Form from "./hooks/Form";
 import Hooks from "./hooks/Hooks";
+import Reducer from "./hooks/Reducer";
 import Ref from "./hooks/Ref";
 import State from "./hooks/State";
 import About from "./pages/About";
@@ -30,6 +31,7 @@ const App = () => {
       <Route path="useEffect" element={<Effect/>}/>
       <Route path="useEffectApi" element={<EffectWithApi/>}/>
       <Route path="useRef" element={<Ref/>}/>
+      <Route path="useReducer" element={<Reducer/>}/>
       </Route>
     </Routes>
     
