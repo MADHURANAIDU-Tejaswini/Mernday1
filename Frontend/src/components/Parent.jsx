@@ -15,7 +15,7 @@ const Parent = ({message}) => {
         <Child name="varshini" age={23} isActive={true} food={["Biriyani","Curd","Lemon"]}
         contact={{
           mobile:1234567890,
-          email:"varshini@gmail.com"
+          email:"varshini50@gmail.com"
 
         }}
         sendMessage={message}/>
