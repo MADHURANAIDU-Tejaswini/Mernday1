@@ -13,7 +13,8 @@ const Hooks = () => {
             <li><Link to="useEffectApi" className='nestedLink'>Effect With Api</Link></li>
             <li><Link to="useRef" className='nestedLink'>Ref</Link></li>
             <li><Link to="useReducer" className='nestedLink'>Reducer</Link></li>
-
+            <li><Link to="useMemo" className='nestedLink'>Memo</Link></li>
+            <li><Link to="useCallback" className='nestedLink'>Callback</Link></li>
         </ul>
         <Outlet/>
     </div>
