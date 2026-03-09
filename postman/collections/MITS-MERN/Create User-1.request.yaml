@@ -1,0 +1,5 @@
+$kind: http-request
+name: Create User
+url: http://localhost:3000/api/user/create
+method: POST
+order: 4496065409773191

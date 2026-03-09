@@ -1,0 +1,5 @@
+$kind: http-request
+name: post example
+url: http://localhost:3000/
+method: POST
+order: 1773035736080

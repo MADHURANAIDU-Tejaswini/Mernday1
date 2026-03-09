@@ -1,0 +1,5 @@
+$kind: http-request
+name: Get User by ID
+url: http://localhost:3000/api/user/1
+method: GET
+order: 4487870721031116
